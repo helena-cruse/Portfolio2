@@ -74,7 +74,6 @@ function ProjectPage() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
           <img src={project.image} alt={`${project.title} project preview`} />
-          <figcaption>{project.caption}</figcaption>
         </motion.figure>
 
         <section className="case-snapshot">

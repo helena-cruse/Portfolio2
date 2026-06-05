@@ -24,13 +24,8 @@ function Home() {
           >
             <div>
               <p className="label">Selected work</p>
-              <h2>Three projects, edited into sharper product stories.</h2>
+              <h2>Three projects refined into stronger product stories.</h2>
             </div>
-
-            <p>
-              I am showing the product idea, the frontend decisions and the
-              improvements.
-            </p>
           </motion.div>
 
           <div className="projects-grid">
@@ -49,13 +44,14 @@ function Home() {
           >
             <p className="label light">About Helena</p>
             <h2>
-              I like expressive interfaces, but I do not trust decoration
-              without logic.
+              I design interfaces with warmth, structure and a clear reason for
+              every detail.
             </h2>
             <p>
-              My direction sits somewhere between editorial design and practical
-              frontend work. Warm visuals, clear systems, responsive layouts and
-              interactions that make the page feel awake.
+              My work sits between editorial visual direction and practical
+              frontend development. I care about responsive layouts,
+              interaction, accessible structure and interfaces that feel both
+              expressive and usable.
             </p>
           </motion.div>
         </section>
