@@ -2,7 +2,7 @@
 
 This portfolio brings together three projects from my time studying Front-End Development at Noroff.
 
-The purpose of Portfolio 2 was not simply to display completed coursework. I wanted to revisit projects I had already delivered, identify weaknesses, make meaningful improvements and present them in a way that feels closer to how I would showcase work to a potential employer.
+The purpose of Portfolio 2 was not simply to display completed coursework. I wanted to revisit projects I had already delivered, identify weaknesses.
 
 Each project includes its own case page with project context, improvements made, technologies used and links to both the live site and GitHub repository.
 
