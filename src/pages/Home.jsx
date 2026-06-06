@@ -24,8 +24,14 @@ function Home() {
           >
             <div>
               <p className="label">Selected work</p>
-              <h2>Three projects refined into stronger product stories.</h2>
+              <h2>Projects I revisited, questioned and made stronger.</h2>
             </div>
+
+            <p>
+              These are 3 school projects. I went back into each one, found what
+              felt unfinished and improved the parts that matter most when
+              someone actually uses the site.
+            </p>
           </motion.div>
 
           <div className="projects-grid">
@@ -44,14 +50,13 @@ function Home() {
           >
             <p className="label light">About Helena</p>
             <h2>
-              I design interfaces with warmth, structure and a clear reason for
-              every detail.
+              I care about the point where design starts affecting how people
+              understand a page.
             </h2>
             <p>
-              My work sits between editorial visual direction and practical
-              frontend development. I care about responsive layouts,
-              interaction, accessible structure and interfaces that feel both
-              expressive and usable.
+              I like warm, expressive interfaces, but I am most interested in
+              whether the layout makes sense, whether the user knows what to do
+              next and whether the site still works when the screen gets small.
             </p>
           </motion.div>
         </section>

@@ -4,35 +4,25 @@ export const projects = [
     title: "Hashtag Social",
     number: "01",
     category: "CSS Frameworks",
-
     shortDescription:
-      "A responsive social media concept redesigned with a cleaner feed, improved profile experience and stronger visual hierarchy.",
-
+      "A responsive social media concept refined through cleaner layouts, stronger hierarchy and a more polished user experience.",
     image: "/images/hashtagSocial.webp",
-
     theme: "blue",
-
     live: "https://hashtagsoscial.netlify.app",
-
-    github: "https://github.com/helena-cruse/css-frameworks-social",
-
+    github:
+      "https://github.com/helena-cruse/css-frameworks-social/blob/main/README.md",
     stack: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-
-    role: "UI redesign, responsive layouts, feed architecture and interaction improvements.",
-
+    role: "Redesigned the feed and profile experience while improving responsiveness and overall usability.",
     intro:
-      "Hashtag Social was created as part of the CSS Frameworks course assignment. The goal was to design and build a responsive social media experience using Bootstrap while focusing on layout, usability and accessibility.",
-
+      "Hashtag Social started as my CSS Frameworks assignment. The original version worked from a technical perspective, but when I revisited it for Portfolio 2, I felt the overall experience lacked the level of polish I wanted to showcase.",
     details:
-      "For the portfolio version, I revisited the project to improve both the visual design and overall user experience. The redesign focuses on stronger hierarchy, cleaner spacing, improved card layouts and a more polished experience across mobile and desktop devices.",
-
+      "Instead of rebuilding the project, I focused on improving the parts users notice first. I refined the feed layout, improved spacing and hierarchy, and redesigned the profile experience to make the platform feel more complete. The goal was to create a social media concept that feels intentional, easy to navigate and visually consistent across devices.",
     focus: [
-      "Responsive design",
-      "Bootstrap components",
-      "Feed experience",
-      "Visual hierarchy",
+      "Responsive layout",
+      "Feed design",
+      "Profile experience",
+      "UI refinement",
     ],
-
     improvements: [
       "Redesigned the feed and profile experience.",
       "Improved content hierarchy and spacing.",
@@ -45,35 +35,25 @@ export const projects = [
     title: "Little Shop",
     number: "02",
     category: "JavaScript Frameworks",
-
     shortDescription:
-      "A modern ecommerce experience built with Next.js, TypeScript and API-driven product data.",
-
+      "A modern ecommerce experience focused on product discovery, usability and a clearer shopping journey.",
     image: "/images/littleshop.webp",
-
     theme: "terracotta",
-
     live: "https://helena-cruse-jsfw2026.netlify.app",
-
-    github: "https://github.com/NoroffFEU/jsfw-2025-v1-helena-m-c",
-
+    github:
+      "https://github.com/NoroffFEU/jsfw-2025-v1-helena-m-c/blob/main/README.md",
     stack: ["Next.js", "React", "TypeScript", "Noroff API"],
-
-    role: "Frontend development, ecommerce UI, product pages, cart functionality and API integration.",
-
+    role: "Worked on the ecommerce experience, product browsing flow and API-driven product pages.",
     intro:
-      "Little Shop is an ecommerce project developed during the JavaScript Frameworks course. The application consumes product data from the Noroff API and focuses on creating a trustworthy shopping experience.",
-
+      "Little Shop is the project where I spent the most time thinking about how design influences trust. The technical requirements were already solved, but I wanted the interface to communicate quality more clearly and create a stronger first impression.",
     details:
-      "The project challenged me to work with dynamic routing, API integration, state management and user-focused ecommerce patterns. During the Portfolio 2 refinement phase, I redesigned key areas to improve clarity, visual hierarchy and overall presentation quality.",
-
+      "For Portfolio 2, I focused on the areas users interact with first. I redesigned the homepage, improved the structure of the shopping experience and refined the navigation between product listings and product detail pages. These changes helped transform the project from a functional assignment into a more complete ecommerce experience.",
     focus: [
+      "Product browsing",
+      "Dynamic routing",
+      "Shopping flow",
       "API integration",
-      "Product discovery",
-      "Cart functionality",
-      "Responsive ecommerce UX",
     ],
-
     improvements: [
       "Redesigned the homepage hero section.",
       "Refined shopping flow and user interactions.",
@@ -86,35 +66,20 @@ export const projects = [
     title: "Evergreen Auction House",
     number: "03",
     category: "Semester Project 2",
-
     shortDescription:
-      "An auction platform built around bidding, listing management and user confidence.",
-
+      "An auction platform improved through clearer browsing, practical filtering and a stronger overall user experience.",
     image: "/images/AuctionHouse.webp",
-
     theme: "forest",
-
     live: "https://evergreen-auction.netlify.app",
-
-    github: "https://github.com/helena-cruse/Evergreen-Auction-House",
-
+    github:
+      "https://github.com/helena-cruse/Evergreen-Auction-House/blob/main/README.md",
     stack: ["HTML", "Tailwind CSS", "JavaScript", "Noroff API"],
-
-    role: "Frontend development, auction workflows, bidding logic, authentication and responsive design.",
-
+    role: "Built and refined the auction experience, including listings, filtering, bidding and API integration.",
     intro:
-      "Evergreen Auction House was developed as Semester Project 2. The application allows users to create listings, place bids and manage auction activity through a fully interactive platform.",
-
+      "Evergreen Auction House is the largest and most complete project in my portfolio. It combines authentication, listing creation, bidding functionality and profile management into a single application.",
     details:
-      "This project brought together authentication, API communication, listing creation, bidding logic and responsive design. During Portfolio 2, I revisited the platform to improve browsing, filtering and overall usability. The focus was on making the auction experience clearer and more intuitive while presenting the project as a complete product rather than simply a school assignment.",
-
-    focus: [
-      "Authentication",
-      "Auction systems",
-      "API communication",
-      "User experience",
-    ],
-
+      "When revisiting the project for Portfolio 2, I focused on how users browse and evaluate listings. I improved the presentation of auction items, added practical filtering features and refined the overall flow through the platform. The aim was to make the experience feel calmer, clearer and easier to use when many listings compete for attention.",
+    focus: ["Auction browsing", "Filtering", "Bidding flow", "API integration"],
     improvements: [
       "Improved auction browsing and listing presentation.",
       "Added working price range filtering.",

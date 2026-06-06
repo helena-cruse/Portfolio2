@@ -15,7 +15,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75 }}
         >
-          Frontend developer / UX direction / Portfolio 2
+          Frontend developer / UX-focused / Portfolio 2
         </motion.p>
 
         <div className="hero-title-mask">
@@ -24,7 +24,7 @@ function Hero() {
             animate={{ y: 0 }}
             transition={{ duration: 1.15, ease: [0.16, 1, 0.3, 1] }}
           >
-            Digital work with warmth, structure and edge.
+            I build interfaces that feel considered, not just completed.
           </motion.h1>
         </div>
 
@@ -34,8 +34,9 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.45, duration: 0.8 }}
         >
-          I design and build responsive web experiences with a UX eye, clean
-          code and enough motion to make the page feel alive.
+          I am studying front-end development and moving more and more toward
+          UX. I like clean structure, warm visuals and small interactions that
+          help a page feel finished.
         </motion.p>
 
         <motion.div
@@ -67,8 +68,8 @@ function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.65, duration: 0.75 }}
         >
-          <small>Frontend instinct</small>
-          <strong>Readable. Responsive.</strong>
+          <small>Frontend note</small>
+          <strong>The layout has to work before it gets decorated.</strong>
         </motion.div>
 
         <motion.div
@@ -77,7 +78,7 @@ function Hero() {
           transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
         >
           <small>UX note</small>
-          <strong>Every click should know why it exists.</strong>
+          <strong>If a user hesitates, the interface should help.</strong>
         </motion.div>
 
         <motion.div
@@ -88,7 +89,7 @@ function Hero() {
           <span />
           <span />
           <span />
-          <p>semantic / accessible / animated</p>
+          <p>responsive / readable / intentional</p>
         </motion.div>
       </motion.div>
 
@@ -99,10 +100,10 @@ function Hero() {
         transition={{ delay: 1 }}
       >
         <div>
-          <span>UX taste</span>
-          <span>Clean code</span>
-          <span>Motion with purpose</span>
-          <span>Responsive systems</span>
+          <span>UX thinking</span>
+          <span>Responsive layouts</span>
+          <span>Cleaner flows</span>
+          <span>Frontend</span>
           <span>Portfolio 2</span>
         </div>
       </motion.div>

@@ -2,20 +2,20 @@ import { motion } from "framer-motion";
 
 const principles = [
   {
-    title: "Structure first",
-    text: "Before decoration, I need to understand the flow, the hierarchy and what the user is trying to do.",
+    title: "I start with the flow",
+    text: "Before I change colours or add motion, I look at what the user is supposed to understand and do.",
   },
   {
-    title: "Motion with manners",
-    text: "Animation should create curiosity and guide attention without stealing the room.",
+    title: "Polish has a job",
+    text: "A site can look exciting, but the details should still support clarity, not cover up weak structure.",
   },
   {
-    title: "Real screens matter",
-    text: "A layout is not finished because it looks nice on desktop. It has to survive thumbs and small screens.",
+    title: "Small screens reveal problems",
+    text: "If a layout only works on desktop, it is not finished. Mobile often shows what needs to be simplified.",
   },
   {
-    title: "Details are UX",
-    text: "Hover states, focus states, loading states and empty states are part of the experience.",
+    title: "Details change the feeling",
+    text: "Spacing, hover states, empty states and feedback can make the difference between a page that works and a page that feels finished.",
   },
 ];
 
@@ -23,8 +23,8 @@ function Philosophy() {
   return (
     <section className="philosophy-section" id="approach">
       <div className="philosophy-heading">
-        <p className="label light">Built with intention</p>
-        <h2>Pretty is not enough. The interface has to behave.</h2>
+        <p className="label light">How I work</p>
+        <h2>I try to make the interface easier to trust.</h2>
       </div>
 
       <div className="principles-grid">

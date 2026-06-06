@@ -3,23 +3,36 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 
 function Cursor() {
   const [active, setActive] = useState(false);
+  const [enabled, setEnabled] = useState(false);
 
   const mouseX = useMotionValue(-100);
   const mouseY = useMotionValue(-100);
 
   const springX = useSpring(mouseX, {
-    stiffness: 1200,
+    stiffness: 900,
     damping: 34,
     mass: 0.12,
   });
 
   const springY = useSpring(mouseY, {
-    stiffness: 1200,
+    stiffness: 900,
     damping: 34,
     mass: 0.12,
   });
 
   useEffect(() => {
+    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (isTouchDevice || prefersReducedMotion) {
+      setEnabled(false);
+      return;
+    }
+
+    setEnabled(true);
+
     const move = (event) => {
       mouseX.set(event.clientX - 8);
       mouseY.set(event.clientY - 8);
@@ -47,13 +60,15 @@ function Cursor() {
     };
   }, [mouseX, mouseY]);
 
+  if (!enabled) return null;
+
   return (
     <motion.div
       className="cursor-heart"
       style={{ x: springX, y: springY }}
       animate={{
-        scale: active ? 1.45 : 1,
-        rotate: active ? -8 : 0,
+        scale: active ? 1.28 : 1,
+        rotate: active ? -6 : 0,
       }}
       transition={{ duration: 0.12 }}
       aria-hidden="true"

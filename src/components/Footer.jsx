@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer" id="contact">
       <div>
         <p className="label light">Contact</p>
-        <h2>Let’s build something beautiful.</h2>
+        <h2>Open to frontend work, UX projects and good digital ideas.</h2>
       </div>
 
       <div className="footer-links">
